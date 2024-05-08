@@ -1,0 +1,17 @@
+#imageHeader{
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+#headerContainer{
+    margin-bottom: 550px;
+}
+.headerTitle{
+    position: relative;
+    left: 20%;
+    color: white;
+    bottom: 10vh;
+}
+.headerTitle h1{
+    font-weight: 700;
+    font-size: 60px;
+}
