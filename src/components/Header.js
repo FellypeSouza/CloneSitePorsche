@@ -1,5 +1,6 @@
 import imageheader from '../styles/images/image-header.jpg';
 import '../styles/images/header.css';
+import imageCar1 from '..styles/images/image-car1.webp';
 
 export default function Header(){
     return(
@@ -17,7 +18,7 @@ export default function Header(){
                 <section className="headerContentRight">{/* lado direito */}
                     <section className='models'>
                         <section className='model'>
-                            <img src="https://image.webmotors.com.br/vmotors-images/2024/5/7/3585ad67-f1a3-4e5f-8551-c40936cebef0.webp" width="355" height="265"/>
+                            <img src={imageCar1} width="355" height="265"/>
                             <figcaption className='m-3'><b>CAYENNE 3.0 V6 E-HYBRID COUPÉ AWD TIPTRONIC S</b></figcaption>
                             <section className='d-flex justify-content-between p-3'>
                                 <p>Por</p> 
