@@ -1,0 +1,23 @@
+.models{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 55rem;
+    margin-left: 3rem;
+}
+.model{
+    max-width: 22.188rem;
+    background-color: #eceaea;
+    margin: 0 1.5rem 2.5rem 0;
+    cursor: pointer;
+}
+.openModel{
+    background-color: #000;
+    cursor: pointer;
+}
+.openModel:hover{
+    background-color: #71757a;
+    transition: all 250ms;
+}
+.openModel:not(:hover){
+    transition: all 250ms;
+}
