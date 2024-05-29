@@ -22,6 +22,7 @@ input[type="range"] {
     width: 25rem;
   }
   
+  
   /******** Chrome, Safari, Opera and Edge Chromium styles ********/
   /* slider track */
   input[type="range"]::-webkit-slider-runnable-track {

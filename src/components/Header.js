@@ -11,10 +11,28 @@ export default function Header(){
             <section className="mainContainer p-5">{/* container principal */}
                 <section className='headerContent'>{/* lado esquerdo */}
                     <h5>Encontre mais fácil aqui</h5>
-                    <input placeholder="Palavra-chave" className="input"/>
+                    <input placeholder="Palavra-chave" className="input w-75"/>
                     <hr className='modelCross mt-4 border-2 border-dark'/>
-                    <input type='range' className='inputRange w-75 m-4'/>
-                    <input type='range' className='inputRange w-75 m-4'/>
+                    <section className='ranges'>
+                        <p className=''>Preço</p>
+                        <section className='d-flex m-2'>
+                            <p>R$0 Min.</p>
+                            <input type='range' className='inputRange w-75 mb-5 m-2'/>
+                            <p>R$1.980.000 Max.</p>
+                        </section>
+                        <section className='d-flex m-2'>
+                            <p>0 Min</p>
+                            <input type='range' className='inputRange w-75 mb-5 m-2'/>
+                            <p>70000 Máx.</p>
+                        </section>
+                    </section>
+                    <p>Unidade</p>
+                    <input list='unidade' placeholder="Selecione uma Unidade" className="input w-75"/>
+                    <datalist id='unidade'>
+                        <option value="ola"/>
+                        <option value="ola"/>
+                        <option value="ola"/>
+                    </datalist>
                 </section>
 
                 <section className="headerContentRight">{/* lado direito */}
