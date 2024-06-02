@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/CloneSitePorsche/static/css/main.430a2960.css",
-    "main.js": "/CloneSitePorsche/static/js/main.f3327e81.js",
+    "main.js": "/CloneSitePorsche/static/js/main.b32bb31e.js",
     "static/js/453.ed3810f9.chunk.js": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js",
     "static/media/image-car1.webp": "/CloneSitePorsche/static/media/image-car1.511f3e118e2ee5e5bc81.webp",
     "static/media/image-header.jpg": "/CloneSitePorsche/static/media/image-header.6ead92f2e90a0a6f7a8a.jpg",
     "static/media/porsche-logo.png": "/CloneSitePorsche/static/media/porsche-logo.47f13b71046f5315345c.png",
     "index.html": "/CloneSitePorsche/index.html",
     "main.430a2960.css.map": "/CloneSitePorsche/static/css/main.430a2960.css.map",
-    "main.f3327e81.js.map": "/CloneSitePorsche/static/js/main.f3327e81.js.map",
+    "main.b32bb31e.js.map": "/CloneSitePorsche/static/js/main.b32bb31e.js.map",
     "453.ed3810f9.chunk.js.map": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.430a2960.css",
-    "static/js/main.f3327e81.js"
+    "static/js/main.b32bb31e.js"
   ]
 }
