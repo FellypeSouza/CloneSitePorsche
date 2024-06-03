@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/CloneSitePorsche/static/css/main.430a2960.css",
-    "main.js": "/CloneSitePorsche/static/js/main.b32bb31e.js",
+    "main.css": "/CloneSitePorsche/static/css/main.8932d133.css",
+    "main.js": "/CloneSitePorsche/static/js/main.9861939f.js",
     "static/js/453.ed3810f9.chunk.js": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js",
     "static/media/image-car1.webp": "/CloneSitePorsche/static/media/image-car1.511f3e118e2ee5e5bc81.webp",
     "static/media/image-header.jpg": "/CloneSitePorsche/static/media/image-header.6ead92f2e90a0a6f7a8a.jpg",
+    "static/media/services-image3.webp": "/CloneSitePorsche/static/media/services-image3.125305147bf2013796ae.webp",
+    "static/media/services-image2.webp": "/CloneSitePorsche/static/media/services-image2.cfb608a2b39374e3dce7.webp",
+    "static/media/services-image4.webp": "/CloneSitePorsche/static/media/services-image4.b0e0a7f8a609d7c3a5cd.webp",
+    "static/media/services-image1.webp": "/CloneSitePorsche/static/media/services-image1.6c7a599853e5229e4307.webp",
     "static/media/porsche-logo.png": "/CloneSitePorsche/static/media/porsche-logo.47f13b71046f5315345c.png",
     "index.html": "/CloneSitePorsche/index.html",
-    "main.430a2960.css.map": "/CloneSitePorsche/static/css/main.430a2960.css.map",
-    "main.b32bb31e.js.map": "/CloneSitePorsche/static/js/main.b32bb31e.js.map",
+    "main.8932d133.css.map": "/CloneSitePorsche/static/css/main.8932d133.css.map",
+    "main.9861939f.js.map": "/CloneSitePorsche/static/js/main.9861939f.js.map",
     "453.ed3810f9.chunk.js.map": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.430a2960.css",
-    "static/js/main.b32bb31e.js"
+    "static/css/main.8932d133.css",
+    "static/js/main.9861939f.js"
   ]
 }
