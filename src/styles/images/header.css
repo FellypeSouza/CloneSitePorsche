@@ -21,8 +21,6 @@ input[type="range"] {
     cursor: pointer;
     width: 25rem;
   }
-  
-  
   /******** Chrome, Safari, Opera and Edge Chromium styles ********/
   /* slider track */
   input[type="range"]::-webkit-slider-runnable-track {
@@ -48,5 +46,19 @@ input[type="range"] {
     position: relative;
     display: grid;
     grid-template-columns: auto auto;
+}
+.headerContent{
+  max-width: 23rem;
+}
+.headerButton{
+  padding: 0.55rem 1rem 0.55rem 1rem;
+  background-color: #000000;
+}
+.headerButton:hover{
+  transition: all 250ms;
+  background-color: #71757a;
+}
+.headerButton:not(:hover){
+  transition: all 250ms;
 }
 

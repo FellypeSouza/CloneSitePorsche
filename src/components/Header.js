@@ -11,7 +11,7 @@ export default function Header(){
             <section className="mainContainer p-5">{/* container principal */}
                 <section className='headerContent'>{/* lado esquerdo */}
                     <h5>Encontre mais fácil aqui</h5>
-                    <input placeholder="Palavra-chave" className="input w-75"/>
+                    <input placeholder="Palavra-chave" className="input w-100"/>
                     <hr className='modelCross mt-4 border-2 border-dark'/>
                     <section className='ranges'>
                         <p className=''>Preço</p>
@@ -27,7 +27,7 @@ export default function Header(){
                         </section>
                     </section>
                     <p className='m-1'>Unidade</p>
-                    <select class="form-select input w-75 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect01">
+                    <select class="form-select input w-100 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect01">
                         <option selected>Selecione uma Unidade</option>
                         <option value="1">São Paulo - SP (Matriz)</option>
                         <option value="2">Campinas - SP</option>
@@ -39,14 +39,14 @@ export default function Header(){
                         <option value="8">Curitiba - PR</option>
                     </select>
                     <p className='m-1'>Marca</p>
-                    <select class="form-select input w-75 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect02">
+                    <select class="form-select input w-100 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect02">
                         <option selected>Selecione uma Marca</option>
                         <option value="1">AUDI</option>
                         <option value="2">LAND ROVER</option>
                         <option value="3">PORSCHE</option>
                     </select>
                     <p className='m-1'>Modelo</p>
-                    <select class="form-select input w-75 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect03">
+                    <select class="form-select input w-100 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect03">
                         <option selected>Selecione um Modelo</option>
                         <option value="1">718</option>
                         <option value="2">911</option>
@@ -58,7 +58,7 @@ export default function Header(){
                         <option value="8">PANAMERA</option>
                     </select>
                     <p className='m-1'>Ordenação</p>
-                    <select class="form-select input w-75 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect03">
+                    <select class="form-select input w-100 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect03">
                         <option selected>Ordenação</option>
                         <option value="1">Mais recentes</option>
                         <option value="2">Menor preço</option>
@@ -67,24 +67,31 @@ export default function Header(){
                         <option value="5">Maior Km</option>
                     </select>
                     <p className='m-1'>Ano</p>
-                    <section className='d-flex'>
-                    <select class="headerForm form-select w-25 input border-1 border-dark rounded-0" id="inputGroupSelect03">
-                        <option selected>de</option>
-                        <option value="1">Mais recentes</option>
-                        <option value="2">Menor preço</option>
-                        <option value="3">Maior preço</option>
-                        <option value="4">Menor Km</option>
-                        <option value="5">Maior Km</option>
-                    </select>
-                    <select class="headerForm form-select w-25 input border-1 border-dark rounded-0" id="inputGroupSelect03">
-                        <option selected>até</option>
-                        <option value="1">Mais recentes</option>
-                        <option value="2">Menor preço</option>
-                        <option value="3">Maior preço</option>
-                        <option value="4">Menor Km</option>
-                        <option value="5">Maior Km</option>
-                    </select>
+                    <section className='d-flex mb-4 justify-content-around'>
+                        <select class="headerForm form-select input border-1 border-dark rounded-0 m-1" id="inputGroupSelect03">
+                            <option selected>de</option>
+                            <option value="1">2024</option>
+                            <option value="2">2023</option>
+                            <option value="3">2022</option>
+                            <option value="4">2021</option>
+                            <option value="5">2020</option>
+                        </select>
+                        <select class="headerForm form-select input border-1 border-dark rounded-0 m-1" id="inputGroupSelect03">
+                            <option selected>até</option>
+                            <option value="1">2024</option>
+                            <option value="2">2023</option>
+                            <option value="3">2022</option>
+                            <option value="4">2021</option>
+                            <option value="5">2020</option>
+                        </select>
                     </section>
+                    <p className='m-1'>Veículo blindado?</p>
+                    <select class="form-select input w-100 border-1 border-dark rounded-0 mb-4" id="inputGroupSelect03">
+                        <option selected>Todos</option>
+                        <option value="1">Blindado</option>
+                        <option value="2">Sem blindagem</option>
+                    </select>
+                    <button className='headerButton btn text-light'>Filtrar</button>
                 </section>
 
                 <section className="headerContentRight">{/* lado direito */}

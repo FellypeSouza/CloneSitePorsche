@@ -1,0 +1,27 @@
+.servicesContainer{
+    background-color: aqua;
+    max-width: 110rem;
+    margin: auto;
+    text-align: center;
+}
+.servicesImages{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.serviceImage{
+    -webkit-box-shadow: inset 3px -66px 34px -34px rgba(0,0,0,0.82);
+-moz-box-shadow: inset 3px -66px 34px -34px rgba(0,0,0,0.82);
+box-shadow: inset 3px -66px 34px -34px rgba(0,0,0,0.82);
+    box-shadow: inset 3px -66px 34px -34px rgba(0,0,0,0.82);
+}
+.servicesImages1{
+    display: inline-block;
+    position: relative;
+}
+.servicesImages1 h4{
+    left: 50px;
+    bottom: 50px;
+}
+img{
+    cursor: pointer;
+}
