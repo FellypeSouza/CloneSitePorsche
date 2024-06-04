@@ -6,7 +6,7 @@ import CarModels from './CarModels';
 export default function Header(){
     return(
         <section>
-            <img src={imageheader} className="img-fluid w-100" alt='porsche' id='imageHeader'/>
+            <img src={imageheader} className="headerImage img-fluid w-100" alt='porsche' id='imageHeader'/>
 
             <section className="mainContainer p-5">{/* container principal */}
                 <section className='headerContent'>{/* lado esquerdo */}
