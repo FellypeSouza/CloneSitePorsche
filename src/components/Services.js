@@ -33,9 +33,7 @@ export default function Services(){
                         <img src={servicesImage4} width="810" className="serviceImage m-4 rounded"/>
                     </a>
                     <h4 className="position-absolute">Porsche Tequipament</h4>
-                </section>
-                
-                
+                </section>    
             </section>
         </section>
     );
