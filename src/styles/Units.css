@@ -3,3 +3,14 @@
     max-width: 100rem;
     margin: auto;
 }
+.unitsInfo{
+    display: flex;
+    justify-content: center;
+}
+.infoLocation{
+    width: 580px;
+    height: 485.56px;
+}
+.unitsRow{
+    width: 390px;
+}
