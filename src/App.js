@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Services from './components/Services';
 import Units from './components/Units';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Header/>
         <Services/>
         <Units/>
+        <Footer/>
       </section>
     </div>
   );

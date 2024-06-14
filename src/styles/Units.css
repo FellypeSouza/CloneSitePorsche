@@ -1,5 +1,4 @@
 .unitsContainer{
-    background-color: aqua;
     max-width: 100rem;
     margin: auto;
 }
@@ -10,7 +9,21 @@
 .infoLocation{
     width: 580px;
     height: 485.56px;
+    background-color: #f0f0f0;
 }
 .unitsRow{
     width: 390px;
+}
+.unitsBtn{
+    color: #000;
+    background-color: #fff;
+    margin: 10px;
+}
+.unitsBtn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 500ms;
+}
+.unitsBtn:not(:hover){
+    transition: all 500ms;
 }

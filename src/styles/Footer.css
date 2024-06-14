@@ -1,0 +1,16 @@
+.footerContainer{
+    margin-top: 4rem;
+    background-color: #0e0e12;
+    color: white;
+    width: 100%;
+}
+.footerContent{
+    max-width: 50rem;
+    margin-left: 25rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5rem;
+}
+.footerContent a {
+    margin: 0.25rem;
+}
