@@ -1,17 +1,18 @@
-import '../styles/Footer.css'
+import '../styles/Footer.css';
+import facebookIcon from '../styles/icons/facebook.png';
+import instagramIcon from '../styles/icons/instagram.png';
+import youtubeIcon from '../styles/icons/youtube.png';
+import linkedinIcon from '../styles/icons/linkedin.png';
 
 export default function Footer(){
     return(
-       /* Eventos & Motorsport
-Porsche Clube Brasil
-Stuttgart Motorsport */
         <section className='footerContainer'>
-            <section className="footerContent">
+            <section className="footerContent ">
                 <section className='row m-5'>
                     <h5>Stuttgart Porsche</h5>
-                    <a>Home</a>
-                    <a>Comparar Modelos</a>
-                    <a>Seminovos</a>
+                    <a href='https://www.stuttgartporsche.com.br/'>Home</a>
+                    <a href='https://www.stuttgartporsche.com.br/dados-tecnicos/'>Comparar Modelos</a>
+                    <a hre>Seminovos</a>
                     <a>Porsche Tequipment</a>
                     <a>E-Performance</a>
                 </section>
@@ -34,8 +35,31 @@ Stuttgart Motorsport */
                     <a>Revista Insider</a>
                 </section>
             </section>
-            <figcaption>Siga a Stuttgart Porsche</figcaption>
-            <i class="bi bi-0-square-fill"></i>
+            <section className='footerSocialIcons d-flex'>
+                <section className='SocialIcons'>
+                    <p className='p-2'><b>Siga a Stuttgart Porsche</b></p>
+                    <a href='https://www.facebook.com/stuttgartporsche/' title='facebook' className='bg-light p-3 m-2 rounded'>
+                        <img src={facebookIcon} width={20} height={20}/>
+                    </a>
+                    <a href='https://www.instagram.com/stuttgartporsche/' title='instagram' className='bg-light p-3 m-2 rounded'>
+                        <img src={instagramIcon} width={20} height={20}/>
+                    </a>
+                    <a href='https://www.youtube.com/stuttgartporsche/' title='youtube' className='bg-light p-3 m-2 rounded'>
+                        <img src={youtubeIcon} width={20} height={20}/>
+                    </a>
+                    <a href='https://www.linkedin.com/company/stuttgartporsche/' title='linkedin' className='bg-light p-3 m-2 rounded'>
+                        <img src={linkedinIcon} width={20} height={20}/>
+                    </a>
+                </section>
+            </section>
+            <section className='footerLastInfo'>
+                <hr className='footerLastInfoLine'/>
+                <p className=''>© 2024 - Porsche Stuttgart.
+                    <a className='text-decoration-underline' href='https://www.stuttgartporsche.com.br/notas-legais/'> Notas Legais </a>
+                    e
+                    <a className='text-decoration-underline' href='https://www.stuttgartporsche.com.br/politica-de-privacidade/'> Política de Privacidade.</a>
+                </p>
+            </section>
         </section>
     );
 }

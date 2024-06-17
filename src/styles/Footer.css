@@ -14,3 +14,17 @@
 .footerContent a {
     margin: 0.25rem;
 }
+.footerSocialIcons{
+    max-width: 50rem;
+    margin-left: 32.9rem;
+}
+.footerLastInfo{
+    max-width: 50rem;
+    margin-left: 32.9rem;
+    padding: 40px 0px 10rem 0px;
+}
+.footerLastInfo hr{
+    width: 90rem;
+    margin: 5rem 0 2rem 0;
+    border: 1px solid rgb(255, 255, 255);
+}

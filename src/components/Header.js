@@ -1,5 +1,5 @@
 import imageheader from '../styles/images/image-header.jpg';
-import '../styles/images/header.css';
+import '../styles/header.css';
 
 import CarModels from './CarModels';
 
