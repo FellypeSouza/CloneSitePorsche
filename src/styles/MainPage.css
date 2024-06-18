@@ -1,0 +1,8 @@
+.MPContainer{
+    background-image: url("https://www.stuttgartporsche.com.br/webp/pub/banners/porsche-pa_1_240430_2608.jpg/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}

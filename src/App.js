@@ -1,19 +1,12 @@
 import './App.css';
-import Nav from './components/Nav';
-import Header from './components/Header';
-import Services from './components/Services';
-import Units from './components/Units';
-import Footer from './components/Footer';
+import MainPage from './pages/MainPage';
+import PreOwneds from './pages/PreOwneds';
 
 function App() {
   return (
     <div className="App">
       <section>
-        <Nav/>
-        <Header/>
-        <Services/>
-        <Units/>
-        <Footer/>
+        <MainPage/>
       </section>
     </div>
   );

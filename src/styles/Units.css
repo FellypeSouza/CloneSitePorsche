@@ -6,6 +6,9 @@
     display: flex;
     justify-content: center;
 }
+.UnitsInfo input {
+    background-color: aqua;
+}
 .infoLocation{
     width: 580px;
     height: 485.56px;

@@ -1,0 +1,20 @@
+.scContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.scContent{
+    display: flex;
+    justify-content: space-between;
+}
+.whatsappIcon{
+    background-color: #29a535;
+    cursor: pointer;
+}
+.porscheIcon{
+    cursor: pointer;
+    background-color: #ffffffbe;
+}
+.porscheIcon:hover{
+    background-color: #fffffff8;
+}
