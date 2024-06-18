@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/CloneSitePorsche/static/css/main.fcd3952f.css",
-    "main.js": "/CloneSitePorsche/static/js/main.5a20f006.js",
+    "main.css": "/CloneSitePorsche/static/css/main.fed0de93.css",
+    "main.js": "/CloneSitePorsche/static/js/main.94ce142e.js",
     "static/js/453.ed3810f9.chunk.js": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js",
-    "static/media/image-car1.webp": "/CloneSitePorsche/static/media/image-car1.511f3e118e2ee5e5bc81.webp",
     "static/media/image-header.jpg": "/CloneSitePorsche/static/media/image-header.6ead92f2e90a0a6f7a8a.jpg",
     "static/media/unitsimagesp1.webp": "/CloneSitePorsche/static/media/unitsimagesp1.e091a14e39bf798bac8b.webp",
+    "static/media/porsche.png": "/CloneSitePorsche/static/media/porsche.cb1ecd7fa60fc7e33460.png",
     "static/media/services-image3.webp": "/CloneSitePorsche/static/media/services-image3.125305147bf2013796ae.webp",
     "static/media/services-image2.webp": "/CloneSitePorsche/static/media/services-image2.cfb608a2b39374e3dce7.webp",
     "static/media/services-image4.webp": "/CloneSitePorsche/static/media/services-image4.b0e0a7f8a609d7c3a5cd.webp",
+    "static/media/instagram.png": "/CloneSitePorsche/static/media/instagram.edb90ecc706a7a25542b.png",
     "static/media/services-image1.webp": "/CloneSitePorsche/static/media/services-image1.6c7a599853e5229e4307.webp",
     "static/media/porsche-logo.png": "/CloneSitePorsche/static/media/porsche-logo.47f13b71046f5315345c.png",
     "index.html": "/CloneSitePorsche/index.html",
-    "main.fcd3952f.css.map": "/CloneSitePorsche/static/css/main.fcd3952f.css.map",
-    "main.5a20f006.js.map": "/CloneSitePorsche/static/js/main.5a20f006.js.map",
+    "main.fed0de93.css.map": "/CloneSitePorsche/static/css/main.fed0de93.css.map",
+    "main.94ce142e.js.map": "/CloneSitePorsche/static/js/main.94ce142e.js.map",
     "453.ed3810f9.chunk.js.map": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcd3952f.css",
-    "static/js/main.5a20f006.js"
+    "static/css/main.fed0de93.css",
+    "static/js/main.94ce142e.js"
   ]
 }
