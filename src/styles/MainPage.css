@@ -1,16 +1,11 @@
 .MPContainer{
     /* background-image: url("https://www.stuttgartporsche.com.br/webp/pub/banners/porsche-pa_1_240430_2608.jpg/"); */
     /* background-image: url("https://www.stuttgartporsche.com.br/webp/pub/banners/inscricoes_1_240619_2901.jpg/"); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 100%;
-    height: 70vh;
 }
-.MPContainer iframe {
+.MPContainer img {
     width: 100vw;
-    max-height: 80vh !important;
-    background-size: cover;
-    pointer-events: none;
+    height: 77vh;
 }
+
 
