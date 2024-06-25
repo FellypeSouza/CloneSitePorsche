@@ -1,10 +1,17 @@
 import React from "react";
 import '../styles/MainPage.css';
 import Nav from "../components/Nav";
+import ScreenContacts from "../components/ScreenContacts";
+import Services from "../components/Services";
+import ServicesSW from "../components/ServicesSW";
+import ServicesModels from "../components/ServicesModels";
+import Units from "../components/Units";
+import Footer from "../components/Footer";
 
-export default function MainPage(){
+export default function MainPage(props){
     return(
         <section>
+            <ScreenContacts/>
             <Nav/>
             <section className="MPContainer">  
                 <div id="carouselExample" class="carousel slide">
@@ -53,6 +60,11 @@ export default function MainPage(){
                         <figcaption className="text-dark">Endereços</figcaption>
                     </a>
                 </section>
+                <ServicesSW title="Mundo Stuttgart"/>
+                <Services title="Entre em contato"/>
+                <ServicesModels title="Modelos"/>
+                <Units/>
+                <Footer/>
         </section>
             
     );

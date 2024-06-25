@@ -5,11 +5,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import PreOwneds from './pages/PreOwneds';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route Component={App} path="CloneSitePorsche/" exact/>
+        <Route Component={PreOwneds} path="CloneSitePorsche/Seminovos" exact/>
+        
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

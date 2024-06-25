@@ -48,11 +48,11 @@ export default function Units(){
                         <section className="infoEnd2">
                             <h6><b>Endereço</b></h6>
                             <figcaption className="small">Av. Doutor Cardoso de Melo, 1507 - Vila Olímpia, São Paulo - SP, 04548-005</figcaption>
-                            <a href="#" className="unitsBtn btn border border-dark">
-                                &gt; Tour Virtual
+                            <a href="#" className="unitsBtn btn border border-dark p-3">
+                                 Tour Virtual
                             </a>
-                            <a href="#" className="unitsBtn btn border border-dark">
-                                &gt; Como chegar
+                            <a href="#" className="unitsBtn btn border border-dark p-3">
+                                 Como chegar
                             </a>
                         </section>
                     </section>

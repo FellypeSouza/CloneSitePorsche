@@ -5,10 +5,10 @@ import servicesImage2 from '../styles/images/services-image2.webp';
 import servicesImage3 from '../styles/images/services-image3.webp';
 import servicesImage4 from '../styles/images/services-image4.webp';
 
-export default function Services(){
+export default function Services(props){
     return(
-        <section className="servicesContainer">
-            <h3>Entre em contato</h3>
+        <section className="servicesContainer p-5">
+            <h3 className="font-weight-bold">{props.title}</h3>
             <section className="servicesImages">
                 <section className="servicesImages1">
                     <a href="#">

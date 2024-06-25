@@ -1,3 +1,7 @@
 .navContainer{
     max-width: 95rem;
 }
+.collapseNav{
+    position: absolute;
+    
+}

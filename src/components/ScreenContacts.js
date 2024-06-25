@@ -8,7 +8,7 @@ export default function ScreenContacts(){
         <section className="scContainer p-2">
             <section className="scContent">
                 <section className="porscheIcon p-3 rounded-circle">
-                    <a href="">
+                    <a href="/CloneSitePorsche/Seminovos">
                         <img src={porscheIcon} width={30} height={30} alt="porsche"/>
                     </a>
                 </section>
