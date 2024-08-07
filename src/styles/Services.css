@@ -16,3 +16,12 @@
     left: 50px;
     bottom: 50px;
 }
+@media (max-width:2000px) {
+    .servicesImages{
+        display: flex;
+        flex-direction: column;
+    }
+    .servicesImages1 h4{
+        display: none;
+    }
+}

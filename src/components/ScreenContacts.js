@@ -13,7 +13,7 @@ export default function ScreenContacts(){
                     </a>
                 </section>
                 <section className="whatsappIcon p-3 rounded-circle">
-                    <a className="whatsappLink" href="">
+                    <a className="whatsappLink" href="/CloneSitePorsche">
                         <img src={whatsappIcon} width={30} height={30} alt="whatsapp"/>
                     </a>
                 </section>

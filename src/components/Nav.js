@@ -14,7 +14,7 @@ export default function Nav(){
             <a href="/CloneSitePorsche" className="nav-item m-3">
                 <img src={porschelogo} width="150" alt="Logo Porsche" title="Logo Porsche"/>
             </a>
-            <a href="#" className="nav-item m-3">
+            <a href="/CloneSitePorsche" className="nav-item m-3">
                 <img src="https://www.stuttgartporsche.com.br/img/logo_stuttgart.svg" width="100" height="28" alt="Stuttgart Porsche" title="Stuttgart Porsche"/>
             </a>
         </section>

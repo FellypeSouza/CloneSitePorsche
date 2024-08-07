@@ -12,7 +12,7 @@ export default function Footer(){
                     <h5>Stuttgart Porsche</h5>
                     <a href='https://www.stuttgartporsche.com.br/'>Home</a>
                     <a href='https://www.stuttgartporsche.com.br/dados-tecnicos/'>Comparar Modelos</a>
-                    <a hre>Seminovos</a>
+                    <a href='/CloneSitePorsche/Seminovos'>Seminovos</a>
                     <a>Porsche Tequipment</a>
                     <a>E-Performance</a>
                 </section>
@@ -39,16 +39,16 @@ export default function Footer(){
                 <section className='SocialIcons'>
                     <p className='p-2'><b>Siga a Stuttgart Porsche</b></p>
                     <a href='https://www.facebook.com/stuttgartporsche/' title='facebook' className='bg-light p-3 m-2 rounded'>
-                        <img src={facebookIcon} width={20} height={20}/>
+                        <img src={facebookIcon} alt="porsche" width={20} height={20}/>
                     </a>
                     <a href='https://www.instagram.com/stuttgartporsche/' title='instagram' className='bg-light p-3 m-2 rounded'>
-                        <img src={instagramIcon} width={20} height={20}/>
+                        <img src={instagramIcon} alt="porsche" width={20} height={20}/>
                     </a>
                     <a href='https://www.youtube.com/stuttgartporsche/' title='youtube' className='bg-light p-3 m-2 rounded'>
-                        <img src={youtubeIcon} width={20} height={20}/>
+                        <img src={youtubeIcon} alt="porsche" width={20} height={20}/>
                     </a>
                     <a href='https://www.linkedin.com/company/stuttgartporsche/' title='linkedin' className='bg-light p-3 m-2 rounded'>
-                        <img src={linkedinIcon} width={20} height={20}/>
+                        <img src={linkedinIcon} alt="porsche" width={20} height={20}/>
                     </a>
                 </section>
             </section>

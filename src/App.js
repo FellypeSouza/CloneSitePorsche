@@ -1,6 +1,7 @@
 import './App.css';
 import MainPage from './pages/MainPage';
 import PreOwneds from './pages/PreOwneds';
+import "./styles/MediaQueries.scss";
 
 function App() {
   return (

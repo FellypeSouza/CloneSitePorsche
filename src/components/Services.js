@@ -11,26 +11,26 @@ export default function Services(props){
             <h3 className="font-weight-bold">{props.title}</h3>
             <section className="servicesImages">
                 <section className="servicesImages1">
-                    <a href="#">
-                        <img src={servicesImage1} width="810" className="serviceImage m-4 rounded"/>
+                    <a href="/CloneSitePorsche">
+                        <img src={servicesImage1} alt="porsche" width="810" className="serviceImage m-4 rounded"/>
                     </a>
                     <h4 className="position-absolute">Agendamento pós-venda</h4>
                 </section>
                 <section className="servicesImages1">
-                    <a href="#">
-                        <img src={servicesImage2} width="810" className="serviceImage m-4 rounded"/>
+                    <a href="/CloneSitePorsche">
+                        <img src={servicesImage2} alt="porsche" width="810" className="serviceImage m-4 rounded"/>
                     </a>
                     <h4 className="position-absolute">Porsche Driver's Selection</h4>
                 </section>
                 <section className="servicesImages1">
-                    <a href="#">
-                        <img src={servicesImage3} width="810" className="serviceImage m-4 rounded"/>
+                    <a href="/CloneSitePorsche">
+                        <img src={servicesImage3} alt="porsche" width="810" className="serviceImage m-4 rounded"/>
                     </a>
                     <h4 className="position-absolute">Porsche Exclusive Manufaktur</h4>
                 </section>
                 <section className="servicesImages1">
-                    <a href="#">
-                        <img src={servicesImage4} width="810" className="serviceImage m-4 rounded"/>
+                    <a href="/CloneSitePorsche">
+                        <img src={servicesImage4} alt="porsche" width="810" className="serviceImage m-4 rounded"/>
                     </a>
                     <h4 className="position-absolute">Porsche Tequipament</h4>
                 </section>    
