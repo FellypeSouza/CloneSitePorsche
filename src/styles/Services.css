@@ -24,4 +24,12 @@
     .servicesImages1 h4{
         display: none;
     }
+    .servicesImages1 img{
+        
+    }
+}
+@media (max-width:1000px) {
+    .servicesImages1 img{
+        width: 350px;
+    }
 }

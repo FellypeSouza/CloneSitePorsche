@@ -16,6 +16,8 @@
 }
 .unitsRow{
     width: 390px;
+    display: flex;
+    flex-direction: column;
 }
 .unitsBtn{
     color: #000;
@@ -29,4 +31,26 @@
 }
 .unitsBtn:not(:hover){
     transition: all 500ms;
+}
+@media (max-width:1250px) {
+    .unitsContainer{
+        margin-top: 10rem;
+        
+    }
+    .unitsContainer h1{
+        text-align: center;
+    }
+    .unitsRow{
+        display: none;
+    }
+    .unitsInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .unitsInfo .unitsImage{
+         width: 440px;
+    }
+    .infoLocation{
+        width: 440px;
+    }
 }

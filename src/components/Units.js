@@ -12,7 +12,7 @@ export default function Units(){
         <section className="unitsContainer">
             <h1 className="fs-4 mb-3">Unidades</h1>
             <section className="unitsInfo">
-                {<section class="unitsRow d-flex flex-column" role="group" aria-label="Basic radio toggle button group">
+                {<section class="unitsRow" role="group" aria-label="Basic radio toggle button group">
                     <input type="radio" class="btn-check" name="btnunit" id="btnunit1" onClick={switchLocation("input1")}/>
                     <label class="btn text-start p-3" for="btnunit1">São Paulo - SP (Matriz)</label>
 
@@ -38,7 +38,7 @@ export default function Units(){
                     <label class="btn text-start p-3" for="btnunit8">Porto Alegre - RS</label>
                 </section>}
                 <section>
-                    <img src={unitsImageSP1} width={580} alt="infoLocal"/>
+                    <img className="unitsImage" src={unitsImageSP1} width={580} alt="infoLocal"/>
                 </section>
                 <section id="unitLocation" className="infoLocation">
                     <section className="infoEnd d-flex flex-row m-4">

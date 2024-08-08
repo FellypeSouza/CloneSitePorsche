@@ -15,6 +15,10 @@
     }
     .MPLinks{
         flex-direction: column;
+        
+    }
+    .MPLinks a {
+        font-size: 1rem;
     }
 }
 

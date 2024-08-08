@@ -38,7 +38,7 @@ export default function MainPage(props){
 
                 
             </section>
-                <section className="MPLinks container-fluid bg-light d-flex align-items-center justify-content-evenly w-75 m-auto p-3">
+                <section className="MPLinks container-fluid bg-light d-flex align-items-center justify-content-evenly w-100 m-auto p-3">
                     <a href="/CloneSitePorsche" className="d-flex p-2">
                         <img className="m-1" src="https://www.stuttgartporsche.com.br/img/icon-phone.svg" width={"20px"} height={"20px"} alt="phone"/>
                         <figcaption className="text-dark">Fale Conosco</figcaption>

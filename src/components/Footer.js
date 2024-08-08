@@ -8,31 +8,31 @@ export default function Footer(){
     return(
         <section className='footerContainer'>
             <section className="footerContent ">
-                <section className='row m-5'>
+                <section className='footerLinks row'>
                     <h5>Stuttgart Porsche</h5>
                     <a href='https://www.stuttgartporsche.com.br/'>Home</a>
                     <a href='https://www.stuttgartporsche.com.br/dados-tecnicos/'>Comparar Modelos</a>
                     <a href='/CloneSitePorsche/Seminovos'>Seminovos</a>
-                    <a>Porsche Tequipment</a>
-                    <a>E-Performance</a>
+                    <a href='/CloneSitePorsche'>Porsche Tequipment</a>
+                    <a href='/CloneSitePorsche'>E-Performance</a>
                 </section>
-                <section className='row m-5'>
+                <section className='footerLinks row'>
                     <h5>Serviços/Acessórios</h5>
-                    <a>Agendamento pós-venda</a>
-                    <a>Porsche Driver’s Selection</a>
-                    <a>Porsche Exclusive Manufaktur</a>
-                    <a>Trabalhe Conosco</a>
-                    <a>Contato</a>
+                    <a href='/CloneSitePorsche'>Agendamento pós-venda</a>
+                    <a href='/CloneSitePorsche'>Porsche Driver’s Selection</a>
+                    <a href='/CloneSitePorsche'>Porsche Exclusive Manufaktur</a>
+                    <a href='/CloneSitePorsche'>Trabalhe Conosco</a>
+                    <a href='/CloneSitePorsche'>Contato</a>
                 </section>
-                <section className='row m-5'>
+                <section className='footerLinks row'>
                     <h5>Eventos & Motorsport</h5>
-                    <a>Porsche Clube Brasil</a>
-                    <a>Stuttgart Motorsport</a>
+                    <a href='/CloneSitePorsche'>Porsche Clube Brasil</a>
+                    <a href='/CloneSitePorsche'>Stuttgart Motorsport</a>
                 </section>
-                <section className='row m-5'>
+                <section className='footerLinks row'>
                     <h5>Novidades</h5>
-                    <a>Press Release</a>
-                    <a>Revista Insider</a>
+                    <a href='/CloneSitePorsche'>Press Release</a>
+                    <a href='/CloneSitePorsche'>Revista Insider</a>
                 </section>
             </section>
             <section className='footerSocialIcons d-flex'>
@@ -53,7 +53,7 @@ export default function Footer(){
                 </section>
             </section>
             <section className='footerLastInfo'>
-                <hr className='footerLastInfoLine'/>
+                
                 <p className=''>© 2024 - Porsche Stuttgart.
                     <a className='text-decoration-underline' href='https://www.stuttgartporsche.com.br/notas-legais/'> Notas Legais </a>
                     e
