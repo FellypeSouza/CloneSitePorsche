@@ -176,7 +176,7 @@ export default function CarModels(){
                                 
                 </section>
             </section>
-            <section class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <section class="btn-group mb-4" role="group" aria-label="Basic radio toggle button group">
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="on"/>
                 <label class="btn" for="btnradio1">1</label>
 

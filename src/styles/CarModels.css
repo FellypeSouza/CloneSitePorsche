@@ -1,7 +1,7 @@
 .models{
     display: grid;
     grid-template-columns: auto auto auto;
-    max-width: 55rem;
+    max-width: 55vw;
     margin-left: 3rem;
 }
 .model{
@@ -20,4 +20,25 @@
 }
 .openModel:not(:hover){
     transition: all 250ms;
+}
+@media (max-width:2200px) {
+    .models{
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:1500px) {
+    .models{
+        grid-template-columns: auto;
+    }
+}
+@media (max-width:1000px) {
+    .models{
+        margin-left: 0;
+    }
+}
+@media (max-width:700px) {
+    .models{
+        
+        justify-content: center;
+    }
 }
