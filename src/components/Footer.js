@@ -35,7 +35,7 @@ export default function Footer(){
                     <a href='/CloneSitePorsche'>Revista Insider</a>
                 </section>
             </section>
-            <section className='footerSocialIcons d-flex'>
+            <section className='footerSocialIcons'>
                 <section className='SocialIcons'>
                     <p className='p-2'><b>Siga a Stuttgart Porsche</b></p>
                     <a href='https://www.facebook.com/stuttgartporsche/' title='facebook' className='bg-light p-3 m-2 rounded'>
