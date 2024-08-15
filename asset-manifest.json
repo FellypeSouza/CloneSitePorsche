@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CloneSitePorsche/static/css/main.218ca9f6.css",
-    "main.js": "/CloneSitePorsche/static/js/main.70ccfe04.js",
+    "main.css": "/CloneSitePorsche/static/css/main.73d8750b.css",
+    "main.js": "/CloneSitePorsche/static/js/main.122b6f4a.js",
     "static/js/453.ed3810f9.chunk.js": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js",
     "static/media/image-header.jpg": "/CloneSitePorsche/static/media/image-header.6ead92f2e90a0a6f7a8a.jpg",
     "static/media/unitsimagesp1.webp": "/CloneSitePorsche/static/media/unitsimagesp1.e091a14e39bf798bac8b.webp",
@@ -13,12 +13,12 @@
     "static/media/services-image1.webp": "/CloneSitePorsche/static/media/services-image1.6c7a599853e5229e4307.webp",
     "static/media/porsche-logo.png": "/CloneSitePorsche/static/media/porsche-logo.47f13b71046f5315345c.png",
     "index.html": "/CloneSitePorsche/index.html",
-    "main.218ca9f6.css.map": "/CloneSitePorsche/static/css/main.218ca9f6.css.map",
-    "main.70ccfe04.js.map": "/CloneSitePorsche/static/js/main.70ccfe04.js.map",
+    "main.73d8750b.css.map": "/CloneSitePorsche/static/css/main.73d8750b.css.map",
+    "main.122b6f4a.js.map": "/CloneSitePorsche/static/js/main.122b6f4a.js.map",
     "453.ed3810f9.chunk.js.map": "/CloneSitePorsche/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.218ca9f6.css",
-    "static/js/main.70ccfe04.js"
+    "static/css/main.73d8750b.css",
+    "static/js/main.122b6f4a.js"
   ]
 }
