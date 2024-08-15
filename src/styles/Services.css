@@ -9,7 +9,7 @@
 }
 .servicesImages1{
     display: inline-block;
-    position: relative;
+    
     
 }
 .servicesImages1 h4{
@@ -20,16 +20,18 @@
     .servicesImages{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .servicesImages1 h4{
         display: none;
-    }
-    .servicesImages1 img{
-        
     }
 }
 @media (max-width:1000px) {
     .servicesImages1 img{
         width: 350px;
     }
+}
+@media (max-width:400px) {
+    
 }

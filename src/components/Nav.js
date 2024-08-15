@@ -11,7 +11,7 @@ export default function Nav(){
                 </svg>
                 Menu
             </button>
-            <a href="/CloneSitePorsche" className="nav-item m-3">
+            <a href="/CloneSitePorsche" className="nav-item">
                 <img src={porschelogo} width="150" alt="Logo Porsche" title="Logo Porsche"/>
             </a>
             <a href="/CloneSitePorsche" className="nav-item m-3">
